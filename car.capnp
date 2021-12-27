@@ -325,6 +325,7 @@ struct CarControl {
       pid @1;
       stopping @2;
       starting @3;
+      feedforward @4;
     }
 
   }
