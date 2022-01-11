@@ -379,6 +379,10 @@ struct DeviceState @0xa4d8b5af2aa492eb {
   batteryTempCDEPRECATED @29 :Float32;
 }
 
+struct SentryState {
+  started @0 :Bool;
+}
+
 struct PandaState @0xa7649e2575e4591e {
   ignitionLine @2 :Bool;
   controlsAllowed @3 :Bool;
@@ -1542,6 +1546,7 @@ struct Event {
     laneSpeedButton @89 :LaneSpeedButton;
     dynamicCameraOffset @90 :DynamicCameraOffset;
     modelLongButton @91 :ModelLongButton;
+    sentryState @92 :SentryState;
 
     # navigation
     navInstruction @82 :NavInstruction;
