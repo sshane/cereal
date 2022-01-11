@@ -294,6 +294,7 @@ struct DeviceState @0xa4d8b5af2aa492eb {
   started @11 :Bool;
   startedSentry @41 :Bool;
   startedMonoTime @13 :UInt64;
+  offMonoTime @42 :UInt64;
 
   # system utilization
   freeSpacePercent @7 :Float32;
