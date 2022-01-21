@@ -380,6 +380,7 @@ struct DeviceState @0xa4d8b5af2aa492eb {
 
 struct SentryState {
   started @0 :Bool;
+  armed @1 :Bool;
 }
 
 struct PandaState @0xa7649e2575e4591e {
