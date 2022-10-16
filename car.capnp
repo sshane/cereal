@@ -164,8 +164,9 @@ struct CarState {
 
   # brake pedal, 0.0-1.0
   brake @5 :Float32;      # this is user pedal only
+  brakePedalPressed @48 :Bool;   # this is user regen only
+  regenPaddlePressed @47 :Bool;  # this is user regen only
   brakePressed @6 :Bool;  # this is user pedal only
-  regenBraking @47 :Bool; # this is user regen only
   parkingBrake @39 :Bool;
   brakeHoldActive @38 :Bool;
 
