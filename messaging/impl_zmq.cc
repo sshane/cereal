@@ -101,7 +101,7 @@ int ZMQPubSocket::connect(Context *context, std::string endpoint, bool check_end
     return -1;
   }
 
-  full_endpoint = "tcp://*:";
+  full_endpoint = "tcp://0.0.0.0:";
   if (check_endpoint){
     full_endpoint += std::to_string(get_port(endpoint));
   } else {
